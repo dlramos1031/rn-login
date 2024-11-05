@@ -15,7 +15,6 @@ export default function Signup() {
   const [hidePassword, setHidePassword] = useState(true);
   const [passwordIcon, setPasswordIcon] = useState("eye");
 
-  // Validation checks
   const isFNameValid = fname.trim().length > 0;
   const isEmailValid = email.includes('@');
   const isPasswordValid = pass.length >= 8 && /\d/.test(pass) && /[!@#$%^&*(),.?":{}|<>]/.test(pass);
