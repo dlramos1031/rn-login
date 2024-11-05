@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "rn-login",
-    "slug": "rn-login",
+    "name": "Login Page",
+    "slug": "login_page",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "login_page",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
